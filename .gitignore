@@ -1,3 +1,22 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+node_modules/
+
+# production builds
+dist/
+dist-ssr/
+
+# local environment files
+.env*
+!.env.example
+*.local
+
+# package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
